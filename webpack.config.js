@@ -6,12 +6,12 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
   },
-  module: {
-    rules: [
-      {
-        test: /\.css$/,
-        use: [{ loader: 'style-loader' }, { loader: 'css-loader' }],
-      },
-    ],
-  },
+  // module: {
+  //   rules: [
+  //     {
+  //       test: /\.css$/,
+  //       use: [{ loader: 'style-loader' }, { loader: 'css-loader' }],
+  //     },
+  //   ],
+  // },
 };

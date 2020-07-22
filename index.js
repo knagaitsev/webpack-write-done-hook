@@ -3,7 +3,7 @@ const webpack = require('webpack');
 // const WebpackDevServer = require('webpack-dev-server/lib/Server');
 const config = require('./webpack.config');
 
-fs.writeFileSync('main.css', 'body { background-color: red; }');
+fs.writeFileSync('dep.js', "console.log('hello');");
 
 const compiler = webpack(config);
 // const server = new WebpackDevServer(compiler, {
